@@ -32,7 +32,7 @@ export const QuizBoy: FC = () => {
     } else {
       setIsCorrect(false);
       setTimeout(() => {
-      setSelectedAnswer(null);
+      setSelectedAnswer("");
     }, 2000);
     }
   };
