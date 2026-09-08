@@ -1,0 +1,78 @@
+.accesscodebox{
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 20px;
+  text-align: center;
+  font-family: sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 4px 10px;
+  border-radius: 12px;
+  background: #3B3B3B;
+
+  h2{
+    font-size: 1.6rem;
+  }
+
+  p{
+    font-size: 0.8rem;
+    color: #bebdbd;
+    margin-bottom: 10px;
+  }
+  
+
+  .accessform{
+
+    .pin-input{
+      font-size: 24px;
+      letter-spacing: 8px;
+      text-align: center;
+      padding: 10px;
+      width: 160px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      border: 1px solid #cccccc;
+      outline: none;
+      transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+      &:focus{
+        border: 1px solid transparent;
+        background: 
+          linear-gradient(#3B3B3B, #3B3B3B) padding-box, 
+          linear-gradient(135deg, #0070f3, #FF1493) border-box;
+      }
+      
+      &.error {
+        border-color: #ff4d4f;
+
+        &:focus {
+          border-color: #ff4d4f;
+          box-shadow: 0 0 8px rgba(255, 77, 79, 0.6);
+        }
+      }
+    }
+
+    button{
+      padding: 16px 28px;
+      font-size: 16px;
+      font-weight: 600;
+      background-color: #0070f3;
+      color: #fff;
+      border-width: medium;
+      border-style: none;
+      border-color: currentcolor;
+      border-image: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.2s ease-out;
+
+      &:hover{
+        background-color: #FF1493;
+      }
+    }
+  }
+
+  .error-message{
+        color: #ff4d4f;
+        margin-top: 15px;
+        font-weight: 600;
+      }
+}
