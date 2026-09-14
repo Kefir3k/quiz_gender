@@ -8,7 +8,7 @@ const App: FC = () => {
   const [error, setError] = useState<boolean>(false);
 
   // Twój kod PIN (zachowuje początkowe zero '0305')
-  const CORRECT_PIN: string = '0305';
+  const CORRECT_PIN: string = '123';
 
   const handlePinSubmit = (e: SubmitEvent<HTMLFormElement>): void => {
     e.preventDefault();
@@ -41,10 +41,10 @@ const App: FC = () => {
           type="text"
           pattern="[0-9]*"
           inputMode="numeric"
-          maxLength={4}
+          maxLength={3}
           value={pin}
           onChange={handleInputChange}
-          placeholder="0000"
+          placeholder="000"
           className={`pin-input ${error ? 'error' : ''}`}
         />
         <br />
