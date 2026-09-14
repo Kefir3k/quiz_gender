@@ -80,11 +80,16 @@ $danger-red: #ff4d4f;
     }
 
     .reveal-title {
-      font-size: 42px;
-      color: $primary-blue;
-      text-shadow: 0 0 10px #0070f3;
+      font-size: 28px;
+      color: #000;
       margin-top: 30px;
       margin-bottom: 50px
+    }
+
+    .last_number{
+      font-size: 92px;
+      color: #000;
+      text-shadow: 0 0 10px #000;
     }
 
     img{

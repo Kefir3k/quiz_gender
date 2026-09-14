@@ -71,7 +71,7 @@ export const QuizBoy: FC = () => {
             {!isPlaying && (
                 <>
                     <h2>To jest poprawna odpowiedź!</h2>
-                    <p style={{ marginBottom: '20px', color: '#666' }}>Naciśnij przycisk poniżej, aby poznać płeć!</p>
+                    <p style={{ marginBottom: '20px', color: '#666' }}>Naciśnij przycisk poniżej, aby poznać ostatnią cyfrę do kłódki!</p>
                 </>
             )}
           
@@ -80,7 +80,7 @@ export const QuizBoy: FC = () => {
             onClick={handlePlayMusic}
             className={`play-btn ${isPlaying ? 'playing' : ''}`}
           >
-            {isPlaying ? '' : 'Odkryj!'}
+            {isPlaying ? '' : 'Pokaż ostatnią cyfrę!'}
           </button>
         )}
 
@@ -88,9 +88,9 @@ export const QuizBoy: FC = () => {
           {isPlaying && (
             <>
             <h1 className="reveal-title">
-              BĘDZIE CHŁOPIEC!
+              OSTATNIA CYFRA DO KŁÓDKI TO:
             </h1>
-            <img src="./image.jpg"></img>
+            <p className="last_number">1</p>
             </>
           )}
         </div>
