@@ -36,10 +36,19 @@ $danger-red: #ff4d4f;
       cursor: pointer;
       transition: all 0.2s ease;
 
-      &:hover {
+      &:active,
+      &.selected {
         background: linear-gradient(135deg, #0070f3, #FF1493) padding-box;
         color: #fff;
         transform: scale(1.06);
+      }
+
+      @media(hover: hover){
+        &:hover {
+          background: linear-gradient(135deg, #0070f3, #FF1493) padding-box;
+          color: #fff;
+          transform: scale(1.06);
+        }
       }
     }
   }

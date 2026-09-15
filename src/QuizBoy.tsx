@@ -91,7 +91,8 @@ export const QuizBoy: FC = () => {
     bgAudio.currentTime = 0;
   };
 
-  const handleAnswerSelect = (option: string): void => {
+  const handleAnswerSelect = (option: string, e: React.MouseEvent<HTMLButtonElement>): void => {
+    e.currentTarget.blur();
     setSelectedAnswer(option);
 
     if (option === currentQuestion.correctAnswer) {
@@ -137,7 +138,7 @@ export const QuizBoy: FC = () => {
             {currentQuestion.options.map((option, index) => (
               <button
                 key={index}
-                onClick={() => handleAnswerSelect(option)}
+                onClick={(e) => handleAnswerSelect(option, e)}
                 className={`option-btn ${selectedAnswer === option ? 'selected' : ''}`}
               >
                 {option}
