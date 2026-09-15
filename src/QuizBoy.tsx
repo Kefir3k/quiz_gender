@@ -169,7 +169,7 @@ export const QuizBoy: FC = () => {
           {isPlaying && (
             <>
               <h1 className="reveal-title">
-                OSTATNIA CYFRA DO KŁÓDKI TO:
+                OSTATNIA CYFRA DO KŁÓDKI:
               </h1>
               <p className="last_number">1</p>
             </>
