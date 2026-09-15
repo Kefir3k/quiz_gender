@@ -9,54 +9,39 @@ interface QuestionData {
 
 const questionsData: QuestionData[] = [
   {
-    text: 'W jakiego uwielbianego przez Ojca dziecka bohatera z uniwersum Marvela wciela się Ryan Reynolds?',
-    options: ['Green Lantern', 'Thor', 'Deadpool', 'Kapitan Ameryka'],
-    correctAnswer: 'Deadpool'
+    text: 'Co ocenia skala Apgar u noworodka?',
+    options: ['Stopień rozwoju neurologicznego dziecka w pierwszych minutach życia', 'Stan noworodka bezpośrednio po urodzeniu, m.in. oddech, czynność serca, napięcie mięśniowe, reakcję na bodźce i kolor skóry', 'Ryzyko wystąpienia wad wrodzonych na podstawie parametrów porodu', 'Wzrost, wagę oraz obwód głowy i klatki piersiowej noworodka'],
+    correctAnswer: 'Stan noworodka bezpośrednio po urodzeniu, m.in. oddech, czynność serca, napięcie mięśniowe, reakcję na bodźce i kolor skóry'
   },
   {
-    text: 'Pytanie 2: Jaki jest ulubiony kolor przprzyszłej mamy?',
-    options: ['Różowy', 'Niebieski', 'Zielony', 'Żółty'],
-    correctAnswer: 'Różowy'
+    text: 'Co jest monitorowane podczas badania KTG?',
+    options: ['Czynność serca płodu oraz czynność skurczowa macicy', 'Przepływ krwi przez łożysko oraz długość szyjki macicy', 'Ruchy płodu oraz poziom wód płodowych', 'Poziom dotlenienia płodu oraz ciśnienie tętnicze krwi matki'],
+    correctAnswer: 'Czynność serca płodu oraz czynność skurczowa macicy'
   },
   {
-    text: 'Pytanie 3: W którym miesiącu przewidywany jest termin porodu?',
-    options: ['Maj', 'Czerwiec', 'Lipiec', 'Sierpień'],
-    correctAnswer: 'Czerwiec'
+    text: 'Określenie „czwarty trymestr” odnosi się do:',
+    options: ['Ostatnich trzech miesięcy ciąży, kiedy dziecko intensywnie przybiera na masie', 'Pierwszych około trzech miesięcy życia dziecka po porodzie, traktowanych jako okres adaptacji zarówno dziecka, jak i rodziców', 'Okresu pomiędzy 40. a 43. tygodniem ciąży, kiedy poród jest najbardziej prawdopodobny', 'Okresu regeneracji organizmu kobiety tuż przed samym porodem'],
+    correctAnswer: 'Pierwszych około trzech miesięcy życia dziecka po porodzie, traktowanych jako okres adaptacji zarówno dziecka, jak i rodziców'
   },
   {
-    text: 'Pytanie 4: Ile trwa ciąża u człowieka (w tygodniach)?',
-    options: ['36', '40', '42', '38'],
-    correctAnswer: '40'
+    text: 'Co najczęściej oznacza skrót „MM” w kontekście żywienia niemowlęcia??',
+    options: ['Mieszanka mineralna', 'Mleko matczyne', 'Mleko modyfikowane', 'Mączka migdałowa'],
+    correctAnswer: 'Mleko modyfikowane'
   },
   {
-    text: 'Pytanie 5: Jaki jest pierwszy zmysł, który rozwija się u dziecka?',
-    options: ['Wzrok', 'Dotyk', 'Słuch', 'Smak'],
-    correctAnswer: 'Dotyk'
+    text: 'Które stwierdzenie dotyczące mleka modyfikowanego jest prawdziwe?',
+    options: ['Jest produkowane wyłącznie na bazie mleka krowiego.', 'Jego skład jest regulowany, a mieszanki są dostosowywane do potrzeb żywieniowych niemowląt.', 'Może być podawane noworodkowi w dowolnym stężeniu, zależnie od jego apetytu.', 'Nie zawiera białek ani tłuszczów, aby ułatwić dziecku trawienie.'],
+    correctAnswer: 'Jego skład jest regulowany, a mieszanki są dostosowywane do potrzeb żywieniowych niemowląt.'
   },
   {
-    text: 'Pytanie 6: Co jest niezbędne w wyprawce do szpitala?',
-    options: ['Pieluszki', 'PlayStation', 'Garnitur', 'Książka'],
-    correctAnswer: 'Pieluszki'
+    text: 'Która z poniższych odpowiedzi najlepiej opisuje rolę douli?',
+    options: ['Jest osobą zapewniającą niemedyczne wsparcie emocjonalne, informacyjne i fizyczne kobiecie oraz jej bliskim w okresie okołoporodowym.', 'Jest specjalistką medyczną uprawnioną do samodzielnego prowadzenia porodu fizjologicznego.', 'Jest terapeutką zajmującą się wyłącznie przygotowaniem psychicznym kobiety do porodu.', 'Jest ratowniczką medyczną odpowiadającą za pierwszą pomoc medyczną noworodkowi.'],
+    correctAnswer: 'Jest osobą zapewniającą niemedyczne wsparcie emocjonalne, informacyjne i fizyczne kobiecie oraz jej bliskim w okresie okołoporodowym.'
   },
   {
-    text: 'Pytanie 7: Jak nazywa się pierwsze mleko matki?',
-    options: ['Młodziwo (Siara)', 'Formuła', 'Śmietanka', 'Kefir'],
-    correctAnswer: 'Młodziwo (Siara)'
-  },
-  {
-    text: 'Pytanie 8: Ile kości ma noworodek?',
-    options: ['206', 'Ok. 300', '150', '500'],
-    correctAnswer: 'Ok. 300'
-  },
-  {
-    text: 'Pytanie 9: Kiedy dziecko zazwyczaj zaczyna gaworzyć?',
-    options: ['W 1. miesiącu', 'Około 6. miesiąca', 'W 12. miesiącu', 'Od razu po urodzeniu'],
-    correctAnswer: 'Około 6. miesiąca'
-  },
-  {
-    text: 'Pytanie 10: Ostatnie pytanie: Czy jesteście gotowi na poznanie cyfry?',
-    options: ['TAK!', 'Nie', 'Chyba tak', 'Jeszcze raz'],
-    correctAnswer: 'TAK!'
+    text: 'Na czym polega kangurowanie noworodka?',
+    options: ['Na masowaniu dziecka w celu pobudzenia jego układu krążenia.', 'Na zawijaniu dziecka w specjalny kokon imitujący warunki panujące w macicy.', 'Na bezpośrednim kontakcie „skóra do skóry” dziecka z rodzicem/opiekunem, zwykle położonego na klatce piersiowej.', 'Na delikatnym kołysaniu noworodka w nosidełku zwanym „kangurkiem”.'],
+    correctAnswer: 'Na bezpośrednim kontakcie „skóra do skóry” dziecka z rodzicem/opiekunem, zwykle położonego na klatce piersiowej.'
   }
 ];
 
@@ -75,6 +60,10 @@ export const QuizBoy: FC = () => {
 
   // Muzyka po odkryciu cyfry na samym końcu
   const [revealAudio] = useState<HTMLAudioElement>(() => new Audio('./sound.mp3'));
+
+  // efekty dźwiękowe po dobrej i błędnej odpowiedzi
+  const [goodSound] = useState<HTMLAudioElement>(() => new Audio('./good-sound.mp3'));
+  const [wrongSound] = useState<HTMLAudioElement>(() => new Audio('./wrong-sound.mp3'));
 
   const currentQuestion = questionsData[currentIndex];
 
@@ -106,6 +95,9 @@ export const QuizBoy: FC = () => {
     setSelectedAnswer(option);
 
     if (option === currentQuestion.correctAnswer) {
+      goodSound.currentTime = 0;
+      goodSound.play().catch((err: Error) => console.error('Błąd odtwarzania dźwięku sukcesu:', err));
+
       setTimeout(() => {
         setSelectedAnswer('');
         if (currentIndex + 1 < questionsData.length) {
@@ -116,6 +108,9 @@ export const QuizBoy: FC = () => {
         }
       }, 500);
     } else {
+      wrongSound.currentTime = 0;
+      wrongSound.play().catch((err: Error) => console.error('Błąd odtwarzania dźwięku pomyłki:', err));
+
       setTimeout(() => {
         setSelectedAnswer('');
       }, 2000);
@@ -158,7 +153,7 @@ export const QuizBoy: FC = () => {
         <div className="reveal-box">
           {!isPlaying && (
             <>
-              <h2>Gratulacje! Odpowiedziałeś na wszystkie pytania!</h2>
+              <h2>Gratulacje! Odpowiedziałeś poprawnie na wszystkie pytania!</h2>
               <p style={{ marginBottom: '20px', color: '#666' }}>
                 Naciśnij przycisk poniżej, aby poznać ostatnią cyfrę do kłódki!
               </p>
@@ -166,7 +161,7 @@ export const QuizBoy: FC = () => {
                 onClick={handlePlayMusic}
                 className="play-btn"
               >
-                Pokaż ostatnią cyfrę!
+                Pokaż ostatnią cyfrę do kłódki!
               </button>
             </>
           )}
