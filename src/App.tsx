@@ -34,7 +34,7 @@ const App: FC = () => {
   return (
     <div className="accesscodebox">
       <h2>Wpisz kod dostępu</h2>
-      <p>Wprowadź kod, aby odblokować quiz.</p>
+      <p>Wpisz otrzymane cyfry w odpowiedniej kolejności.</p>
 
       <form className="accessform" onSubmit={handlePinSubmit}>
         <input
