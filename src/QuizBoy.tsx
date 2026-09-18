@@ -172,7 +172,7 @@ export const QuizBoy: FC = () => {
               <h1 className="reveal-title">
                 OSTATNIA CYFRA DO KŁÓDKI:
               </h1>
-              <p className="last_number">1</p>
+              <p className="last_number">7</p>
             </>
           )}
         </div>

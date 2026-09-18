@@ -8,7 +8,7 @@ const App: FC = () => {
   const [error, setError] = useState<boolean>(false);
 
   // Twój kod PIN (zachowuje początkowe zero '0305')
-  const CORRECT_PIN: string = '123';
+  const CORRECT_PIN: string = '012';
 
   const handlePinSubmit = (e: SubmitEvent<HTMLFormElement>): void => {
     e.preventDefault();
